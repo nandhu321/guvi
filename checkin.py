@@ -1,0 +1,19 @@
+str1,str2=map(str,input().split())
+s1=str1.lower()
+s2=str2.lower()
+i=0
+j=0
+f=len(s1)
+count=0
+while f>0:
+    if(s1[i]==s2[j]):
+        i=i+1
+        j=j+1
+        f=f-1
+    else:
+        count=count+1
+        f=f-1
+if(count==1):
+    print('yes')
+else:
+    print("no")
