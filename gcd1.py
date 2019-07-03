@@ -8,4 +8,4 @@ for i in range(0,m):
 for i in c:
     d=i[0]-1
     e=i[1]-1
-    print(math.gcd(b4[d],b4[e]))
+    print(math.gcd(b[d],b[e]))
