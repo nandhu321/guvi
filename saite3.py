@@ -8,6 +8,6 @@ for i in range(0,l):
     else:
         continue
 if(count==0):
-    print("no")
+    print("No")
 else:
-    print("yes")
+    print("Yes")
